@@ -1,1 +1,16 @@
-{}
+{
+  "theme": {
+    "slug": "wp-rig-hh",
+    "name": "WP Rig HH",
+    "author": "The WP Rig Contributors",
+    "PHPNamespace": "WP_Rig\\WP_Rig_hh",
+    "dev": {
+      "browserSync": {
+        "live": true,
+        "proxyURL": "wprig.test:8888",
+        "bypassPort": "8181",
+        "https": false
+      }
+    }
+  }
+}
